@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Apple_Frameworks: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct AppleFrameworks: App {
+  var body: some Scene {
+    WindowGroup {
+      FrameworkGridView()
     }
+  }
 }
